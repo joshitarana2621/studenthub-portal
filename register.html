@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Student Register - Studenthub Portal</title>
+  
+</head>
+<body>
+
+    <header>
+        <h1>studenthub portal</h1>
+        <img src="../images/logo.png" alt="logo" width="100">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about-college">About College</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="new-student-register">
+            <h2>Register</h2>
+            <form action="login.html" method="get">
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                <p>
+                    <label for="enrollment">Enrollment id</label><br>
+                    <input type="text" id="enrollment" name="enrollment" required>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p>
+                <p>
+                    <label for="confirm_password">Confirm password</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </p>
+                <p>
+                    <label for="college">college</label><br>
+                    <input type="text" id="college" name="college" required>
+                </p>
+                <p>
+                    <label for="branch">Branch</label>
+                    <select id="branch" name="branch">
+                        <option value="">branch list</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="it">Information Technology</option>
+                        <option value="ce">Computer Engineering</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="semester">Current semester</label>
+                    <select id="semester" name="semester">
+                        <option value="">semester</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </p>
+                <p>
+                    <button type="submit">confirm</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    
+   <footer>
+
+        <p>&copy; 2026 StudentHub Portal. All Rights Reserved.</p>
+
+        <p>Email: info@studenthub.com</p>
+
+    </footer>
+
+</body>
+</html>
