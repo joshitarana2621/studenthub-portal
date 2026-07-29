@@ -1,7 +1,4 @@
 
-SEMESTER  - COMPUTER ENGINEERING DEPARTMENT
-PROJECT: COLLEGE STUDENT PORTAL (StudentHub)
-SUBMITTED BY: Student Group 4 (Roll No: 12, 18, 25)
 
 --------------------------------------------------
 REQUIREMENT ANALYSIS DOCUMENT
