@@ -1,0 +1,210 @@
+/* Styling for StudentHub Portal - First Web Project */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366; /* Standard Navy Blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header h2 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+
+header img {
+    max-width: 100px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+header table {
+    margin: 0 auto;
+}
+
+header table td {
+    color: #ffffff;
+    padding: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #002244; /* Darker Navy Blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #0055a5; /* Bright Blue Hover */
+    text-decoration: underline;
+}
+
+/* Main Container */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+
+h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #002244;
+}
+
+/* Forms and Buttons */
+form p {
+    margin: 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+button,
+input[type="submit"] {
+    background-color: #003366;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #0055a5;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0;
+    color: #003366;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Image Galleries */
+figure {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Links */
+a {
+    color: #003366;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0055a5;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    clear: both;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+}
