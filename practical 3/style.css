@@ -1,4 +1,4 @@
-/* Styling for StudentHub Portal - First Web Project */
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,9 +8,9 @@ body {
     color: #333333;
 }
 
-/* Header Styles */
+
 header {
-    background-color: #003366; /* Standard Navy Blue */
+    background-color: #003366; 
     color: #ffffff;
     text-align: center;
     padding: 20px;
@@ -42,9 +42,9 @@ header table td {
     padding: 10px;
 }
 
-/* Navigation Bar */
+
 nav {
-    background-color: #002244; /* Darker Navy Blue */
+    background-color: #002244; 
     padding: 10px;
 }
 
@@ -68,11 +68,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0055a5; /* Bright Blue Hover */
+    background-color: #0055a5; 
     text-decoration: underline;
 }
 
-/* Main Container */
+
 main {
     width: 80%;
     margin: 20px auto;
@@ -91,7 +91,7 @@ h3 {
     color: #002244;
 }
 
-/* Forms and Buttons */
+
 form p {
     margin: 10px 0;
 }
@@ -128,7 +128,7 @@ input[type="submit"]:hover {
     background-color: #0055a5;
 }
 
-/* Tables */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -156,7 +156,7 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Image Galleries */
+
 figure {
     display: inline-block;
     border: 1px solid #cccccc;
@@ -175,7 +175,7 @@ figcaption {
     font-size: 12px;
 }
 
-/* Lists */
+
 ul {
     padding-left: 20px;
 }
@@ -194,7 +194,7 @@ a:hover {
     color: #0055a5;
 }
 
-/* Footer Styling */
+
 footer {
     background-color: #003366;
     color: #ffffff;
