@@ -1,4 +1,4 @@
-
+/* Styling for StudentHub Portal - First Web Project */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -8,11 +8,14 @@ body {
     color: #333333;
 }
 
-
+/* Header Styles */
 header {
     background-color: #003366; 
     color: #ffffff;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
     padding: 20px;
 }
 
@@ -31,6 +34,7 @@ header img {
     background-color: #ffffff;
     padding: 5px;
     border: 1px solid #cccccc;
+    display: block;
 }
 
 header table {
@@ -42,22 +46,27 @@ header table td {
     padding: 10px;
 }
 
-
+/* Navigation Bar */
 nav {
-    background-color: #002244; 
+    background-color: #002244; /* Darker Navy Blue */
     padding: 10px;
+    overflow-x: auto;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
 }
 
 nav li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 nav a {
@@ -65,20 +74,28 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     padding: 5px 10px;
+    display: inline-block;
 }
 
 nav a:hover {
-    background-color: #0055a5; 
-    text-decoration: underline;
+    background-color: #afdcf6; 
+    color: #0f0303;
+
 }
 
-
+/* Main Container */
 main {
     width: 80%;
     margin: 20px auto;
 }
 
-
+/* Section styling (Boxes) */
+section {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
 
 h2 {
     color: #003366;
@@ -91,7 +108,7 @@ h3 {
     color: #002244;
 }
 
-
+/* Forms and Buttons */
 form p {
     margin: 10px 0;
 }
@@ -125,10 +142,10 @@ input[type="submit"] {
 
 button:hover,
 input[type="submit"]:hover {
-    background-color: #0055a5;
+    background-color: #029ae1;
 }
 
-
+/* Tables */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -156,7 +173,7 @@ tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-
+/* Image Galleries */
 figure {
     display: inline-block;
     border: 1px solid #cccccc;
@@ -175,7 +192,7 @@ figcaption {
     font-size: 12px;
 }
 
-
+/* Lists */
 ul {
     padding-left: 20px;
 }
@@ -194,7 +211,7 @@ a:hover {
     color: #0055a5;
 }
 
-
+/* Footer Styling */
 footer {
     background-color: #003366;
     color: #ffffff;
@@ -207,4 +224,47 @@ footer {
 footer a {
     color: #ffffff;
     margin: 0 10px;
+}
+
+/* For tablets */
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-wrap: wrap;
+        gap: 8px 12px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+    header {
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    nav {
+        padding: 8px;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 6px 8px;
+    }
+
+    nav a {
+        padding: 5px 7px;
+        font-size: 13px;
+    }
 }
