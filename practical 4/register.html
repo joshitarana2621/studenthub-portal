@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Student Register - Studenthub Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <header>
+        <div>
+            <img src="../images/logo.png" alt="logo" width="100">
+            <h1>studenthub portal</h1>
+        </div>
+    </header>
+
+    <button id="hamburger" class="hamburger" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav" class="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="result.html">Result</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="new-student-register">
+            <h2>Register</h2>
+            <form onsubmit="return validateForm();" id="registerForm">
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><span
+                        id="nameError"></span>
+                </p>
+
+                <p>
+                    <label for="enrollment">Enrollment id</label><br>
+                    <input type="text" id="enrollment" name="enrollment" placeholder="Enter your enrollment ID"><span
+                        id="enrollmentError"></span>
+                </p>
+
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"><span
+                        id="emailError"></span>
+                </p>
+
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Enter your password"><span
+                        id="passwordError"></span>
+                </p>
+
+                <p>
+                    <label for="confirm_password">Confirm password</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password"
+                        placeholder="Confirm your password"><span id="confirmPasswordError"></span>
+                </p>
+
+                <p>
+                    <button type="submit">confirm</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2026 StudentHub Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/script1.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

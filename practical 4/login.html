@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Login - StudentHub Portal</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <img src="../images/logo.png" alt="StudentHub Portal logo" width="100">
+            <h1>StudentHub Portal</h1>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <button id="hamburger" class="hamburger" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav" class="nav-menu" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="attendance.html">Attendance</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="assignment.html">Assignments</a></li>
+            <li><a href="result.html">Results</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Login Section -->
+        <section id="student-login">
+
+            <h2>Student Login</h2>
+
+            <form id="loginForm">
+
+                <!-- Enrollment Number -->
+                <p>
+                    <label for="enrollment">
+                        Enrollment Number
+                    </label>
+                    <br>
+
+                    <input type="text" id="enrollment" name="enrollment" placeholder="Enter your enrollment number" ><span id="nameError"></span>
+                </p>
+
+                <!-- Password -->
+                <p>
+                    <label for="password">
+                        Password
+                    </label>
+                    <br>
+
+                    <input type="password" id="password" name="password" placeholder="Enter your password"><span id="passwordError"></span>
+                </p>
+
+                <!-- Password Toggle -->
+                <p>
+                    <button type="button" id="togglePassword">
+                        Show Password
+                    </button>
+                </p>
+
+                <!-- Login Button -->
+                <p>
+                    <button type="submit">
+                        Login
+                    </button>
+                </p>
+
+            </form>
+
+        </section>
+
+        <!-- Register Section -->
+        <section id="new-student-register">
+
+            <h2>New Student?</h2>
+
+            <p>
+                Don't have an account?
+                <a href="register.html">
+                    Register here
+                </a>
+            </p>
+
+        </section>
+
+        <!-- Back to Home -->
+        <p>
+            <a href="index.html">
+                &larr; Back to Home
+            </a>
+        </p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; 2026 StudentHub Portal.
+            All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
