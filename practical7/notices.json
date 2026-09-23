@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "CIE 2 Examination Schedule",
+    "category": "Exam",
+    "department": "Computer Engineering",
+    "date": "2026-10-05",
+    "description": "The second internal examination begins from 5 October. Check the department timetable for room details.",
+    "priority": "High"
+  },
+  {
+    "id": 2,
+    "title": "Web Development Assignment Submission",
+    "category": "Assignment",
+    "department": "Computer Engineering",
+    "date": "2026-09-28",
+    "description": "Submit the Fetch API practical file and screenshots through the course portal before 11:59 PM.",
+    "priority": "High"
+  },
+  {
+    "id": 3,
+    "title": "Expert Talk: Building Accessible Interfaces",
+    "category": "Event",
+    "department": "Training and Placement Cell",
+    "date": "2026-10-12",
+    "description": "Join an interactive session with industry mentor Ananya Mehta in Seminar Hall 2.",
+    "priority": "Normal"
+  },
+  {
+    "id": 4,
+    "title": "Library Timing Extended During Examinations",
+    "category": "Notice",
+    "department": "Central Library",
+    "date": "2026-09-20",
+    "description": "The central library will remain open until 9:00 PM on weekdays during the examination period.",
+    "priority": "Normal"
+  },
+  {
+    "id": 5,
+    "title": "CIE Marks Verification Window",
+    "category": "Result",
+    "department": "Examination Cell",
+    "date": "2026-09-25",
+    "description": "Students can verify their internal marks and report discrepancies to their class coordinator.",
+    "priority": "High"
+  },
+  {
+    "id": 6,
+    "title": "Student Innovation Club Orientation",
+    "category": "Event",
+    "department": "Student Activities",
+    "date": "2026-10-18",
+    "description": "First-year and senior students are invited to the innovation club orientation in Lab 4.",
+    "priority": "Normal"
+  },
+  {
+    "id": 7,
+    "title": "Subject Paper Pattern Released",
+    "category": "Academic",
+    "department": "Computer Engineering",
+    "date": "2026-09-22",
+    "description": "The updated paper pattern and syllabus coverage for all CIE subjects are now available.",
+    "priority": "Normal"
+  }
+]

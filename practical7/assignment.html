@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignments & Notices - Studenthub Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    
+    <header>
+        <div>
+            <img src="../images/logo.png" alt="logo" width="100">
+            <h1>studenthub portal</h1>
+        </div>
+    </header>
+
+        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">☰</button>
+        <nav id="mainNav" class="nav-menu" aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li><a href="result.html">Results</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+   
+
+    <main>
+        <h2>Assignments &amp; Notices</h2>
+
+        <section id="notice-browser" aria-labelledby="notice-browser-title">
+            <h3 id="notice-browser-title">Student Notice Board</h3>
+            <p>Browse the latest academic updates, assignments, examinations, and events.</p>
+
+            <div class="notice-controls">
+                <label for="noticeSearch">Search notices</label>
+                <input type="search" id="noticeSearch" placeholder="Search by title or department">
+
+                <label for="noticeCategory">Filter by category</label>
+                <select id="noticeCategory">
+                    <option value="all">All categories</option>
+                </select>
+
+                <label for="noticeSort">Sort by</label>
+                <select id="noticeSort">
+                    <option value="date-asc">Date: earliest first</option>
+                    <option value="date-desc">Date: latest first</option>
+                    <option value="title-asc">Title: A to Z</option>
+                </select>
+            </div>
+
+            <p id="noticeStatus" role="status" aria-live="polite">Loading notices...</p>
+            <div id="noticeList" class="notice-list"></div>
+
+            <nav class="pagination" aria-label="Notice pages">
+                <button type="button" id="previousPage">Previous</button>
+                <span id="pageInfo"></span>
+                <button type="button" id="nextPage">Next</button>
+            </nav>
+        </section>
+    </main>
+   <footer>
+
+        <p>&copy; 2026 StudentHub Portal. All Rights Reserved.</p>
+
+
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>

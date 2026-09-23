@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub Portal - Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <header>
+     
+        <div>
+            <img src="../images/logo.png" alt="logo" width="100">
+            <h1>studenthub portal</h1>
+        </div>
+
+        <button id="hamburger" class="hamburger" aria-label="Toggle navigation">☰</button>
+        <nav id="mainNav" class="nav-menu" aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="attendance.html">Attendance</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="assignment.html">Assignments</a></li>
+                <li><a href="result.html">Results</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2 align="center">PROFILE</h2>
+
+        <form onsubmit="return updateProfile()">
+
+            <section>
+
+                <h3>General Information</h3>
+
+                <table cellpadding="8">
+
+                    <tr>
+                        <td>Student ID</td>
+                        <td><p>25dce034</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Full Name</td>
+                        <td><p>student</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mother's Name</td>
+                        <td><p>mother name</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>University</td>
+                        <td><p>charusat</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Institute</td>
+                        <td><p>depstar</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Program</td>
+                        <td><p>Computer engineering</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Aadhar Number</td>
+                        <td><p>XXXX1234</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td><p>12/02/2006</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Blood Group</td>
+                        <td>
+                            <select>
+                                <option>Select</option>
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Religion</td>
+                        <td><p>hindu</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Caste</td>
+                        <td><p>caste</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>Date of Admission</td>
+                        <td><p>28/07/2025</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>ACPC Merit Rank</td>
+                        <td><p>2023</p></td>
+                    </tr>
+
+                    <tr>
+                        <td>ACPC Merit Marks</td>
+                        <td><p>95.05</p></td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <hr>
+
+            <section>
+
+                <h3>Contact Details</h3>
+
+                <table cellpadding="8">
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="tel"></td>
+                    </tr>
+
+                    <tr>
+                        <td>College Email</td>
+                        <td><input type="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Personal Email</td>
+                        <td><input type="email"></td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <br>
+
+            <center>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </center>
+
+        </form>
+
+    </main>
+
+    <br>
+
+    <footer align="center">
+        <hr>
+        <p>&copy; 2026 StudentHub Portal</p>
+    </footer>
+
+</body>
+</html>
